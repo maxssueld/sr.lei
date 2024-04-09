@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    font-family: helvetica;
+}
+/*secao-topo */
+.topo{
+    border-bottom: 1px solid #d5d5d5;
+}
+.largura-limitada{
+    margin: 0 auto;
+    width: 800px;
+}
+.topo p{
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+/* capa-principal */
+h1,h2,h3{
+    margin: 0;
+
+}
+.capa-principal{
+    background-image: url(../img/capa.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 500px;
+
+}
+/* sobre nos */
+.secao-conteudo-capa{
+    text-align: right;
+    padding: 50px 20px;
+}
+.secao-sobre {
+    padding: 50px 20px;
+}
+.img-sobre{
+    width: 260px;
+    height: 190px;
+}
+ .texto-grifado{
+    border-left: 2px solid;
+    padding-left: 15px;
+    font-size: 22px;
+}
+/* secao-divisao-atuacao */
+.secao-background-divisao{
+    background-image: url(../img/fundo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 70px 0;
+    text-align: center;
+}
+.secao-background-divisao h3{
+    font-size: 40px;
+    background-color: #fff;
+    width: 225px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+
